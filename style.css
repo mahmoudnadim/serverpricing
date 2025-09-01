@@ -124,8 +124,12 @@ footer{
   html{
       font-size: 14px;
   }
+  .CP{
+    padding: 2rem;
+   }
   .heroContainer{
     padding: 4rem 2.5rem !important;
+    margin: 3rem 2rem;
     text-align: center;
     gap: 2rem;
     flex-direction: column-reverse;
@@ -139,6 +143,9 @@ footer{
   }
   .heroDesc{
     font-size: .8rem;
+  }
+  .sectionTitle{
+    font-size: 2.2rem;
   }
 }
 @media (max-width:765px){
@@ -156,11 +163,5 @@ footer{
 @media (max-width:576px){
     html{
         font-size: 16px;
-    }
-    .CP{
-        padding: 2rem;
-    }
-    .heroContainer{
-        margin: 3rem;
     }
 }
