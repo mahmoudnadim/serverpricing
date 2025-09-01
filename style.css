@@ -20,7 +20,8 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 3rem 5rem;
+    margin: 0 5rem;
+    margin-top: 3rem;
     gap: 4rem;
     background: #f5f5f5;
     border-radius: 2rem;
@@ -52,6 +53,7 @@ nav {
     font-size: 2.5rem;
     font-weight: 500;
     color: #333;
+    padding: 2rem 0;
 }
 .priceCards{
     margin: 1rem 0;
@@ -59,12 +61,11 @@ nav {
 .priceCard{
     border-radius: 1rem;
     background-color: #f2f2f2;
-    padding: 2rem 1rem;
+    padding: 2rem;
 }
 .cardTitle{
     font-size: 1.5rem;
     font-weight: 500;
-    padding: 0 1rem;
     color: #333;
 }
 .cardTitle i{
@@ -77,10 +78,10 @@ nav {
 
 }
 .cardList{
-    padding: 2rem 1rem;
     display: flex;
     flex-direction: column;
     gap: 1.2rem;
+    padding: 2rem 0;
 }
 .cardListItem{
     display: flex;
@@ -93,6 +94,7 @@ nav {
 .cardListItem span{
     font-size: .8rem;
     color: #585858;
+    padding-left: .5rem;
 }
 .cardBtn{
     background: #b573de;
