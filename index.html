@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Server Pricing</title>
+</head>
+
+<body>
+    <nav class='text-center text-3xl'><a href="/ProjectsSimulation/">Server Pricing</a></nav>
+    <div class="CP heroContainer">
+        <div class="heroLeft">
+            <p class="heroTitle">Reliable Hosting Plans for Every Need</p>
+            <p class="heroDesc">Choose from Standard, Business, and Premium packages designed to power your online success.</p>
+        </div>
+        <div class="heroRight">
+            <img src="./assets/heroImg.svg" alt="" />
+        </div>
+    </div>
+    <div class="CP main_c">
+        <p class="sectionTitle">Choose your right plan</p>
+        <div class="priceCards grid md:grid-cols-3 sm:grid-cols-1 gap-4">
+            <div class="priceCard">
+                <p class="cardTitle"><i class="fa-solid fa-globe"></i> Start up Business</p>
+                <ul class="cardList">
+                    <li class="cardListItem"><i class="fa-solid fa-check"></i> Hosting</li>
+                    <li class="cardListItem"><i class="fa-solid fa-check"></i> Limited ssd</li>
+                    <li class="cardListItem"><i class="fa-solid fa-check"></i> Domain <span>( 15$ and up )</span></li>
+                    <li class="cardListItem"><i class="fa-solid fa-check"></i> Cloud flare ssl <span>(Free)</span></li>
+                    <li class="cardListItem"><i class="fa-solid fa-check"></i> Domain Email <span>( 1 Free Domain  mail)</span></li>
+                    <li class="cardListItem"><i class="fa-solid fa-check"></i> Fast Host </li>
+                </ul>
+                <button class="cardBtn">Choose</button>
+            </div>
+            <div class="priceCard">
+                <p class="cardTitle"><i class="fa-solid fa-star-of-life"></i> Meduim / small  Business</p>
+                <ul class="cardList">
+                    <li class="cardListItem"><i class="fa-solid fa-check"></i> Hosting</li>
+                    <li class="cardListItem"><i class="fa-solid fa-check"></i> Unllimited ssd</li>
+                    <li class="cardListItem"><i class="fa-solid fa-check"></i> Domain <span>( 15$ and up )</span></li>
+                    <li class="cardListItem"><i class="fa-solid fa-check"></i> Cloud flare ssl <span>(Free)</span></li>
+                    <li class="cardListItem"><i class="fa-solid fa-check"></i> Domain Email <span>( 3 Free Domain  mail)</span></li>
+                    <li class="cardListItem"><i class="fa-solid fa-check"></i> Fast Host </li>
+                </ul>
+                <button class="cardBtn">Choose</button>
+            </div>
+            <div class="priceCard">
+                <p class="cardTitle"><i class="fa-solid fa-bolt"></i> Big Business</p>
+                <ul class="cardList">
+                    <li class="cardListItem"><i class="fa-solid fa-check"></i> Hosting</li>
+                    <li class="cardListItem"><i class="fa-solid fa-check"></i> Unllimited ssd</li>
+                    <li class="cardListItem"><i class="fa-solid fa-check"></i> Domain <span>( 15$ and up )</span></li>
+                    <li class="cardListItem"><i class="fa-solid fa-check"></i> Cloud flare ssl <span>(Free)</span></li>
+                    <li class="cardListItem"><i class="fa-solid fa-check"></i> Domain Email <span>( 5 Free Domain  mail)</span></li>
+                    <li class="cardListItem"><i class="fa-solid fa-check"></i> Fast Host </li>
+                </ul>
+                <button class="cardBtn">Choose</button>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p class="footerText"></p>
+    </footer>
+    <script>
+        const year = new Date().getFullYear().toString()
+        document.querySelector(".footerText").innerHTML = `All Rights Reserved ${year} &copy;`
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,164 @@
+body {
+    background: radial-gradient(circle at top left, rgb(181 115 222 / 30%) 0%, transparent 60%), radial-gradient(circle at bottom right, rgb(154 112 193 / 30%) 0%, transparent 60%), linear-gradient(135deg, #f7f5ff 0%, #ede9f9 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(40px);
+}
+nav {
+    background: #fff;
+    font-weight: 500;
+    padding: 1.5rem 0;
+}
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.CP {
+  padding: 2rem 5rem;
+}
+.heroContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3rem 5rem;
+    gap: 4rem;
+    background: #f5f5f5;
+    border-radius: 2rem;
+    height: 70vh;
+    overflow: hidden;
+}
+.heroContainer img{
+    height: 100%;
+    width: auto;
+}
+.heroLeft, .heroRight{
+    width: calc(50% - 4rem);
+}
+.heroLeft{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.heroTitle{
+    font-size: 3rem;
+    font-weight: 600;
+}   
+.heroDesc{
+    font-size: 1.2rem;
+}
+
+.sectionTitle{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: #333;
+}
+.priceCards{
+    margin: 1rem 0;
+}
+.priceCard{
+    border-radius: 1rem;
+    background-color: #f2f2f2;
+    padding: 2rem 1rem;
+}
+.cardTitle{
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding: 0 1rem;
+    color: #333;
+}
+.cardTitle i{
+    padding: .8rem;
+    background: #333;
+    border-radius: .8rem;
+    width: fit-content;
+    margin-right: .5rem;
+    color: #fff;
+
+}
+.cardList{
+    padding: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+.cardListItem{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.cardListItem i{
+    margin-right: .5rem;
+}
+.cardListItem span{
+    font-size: .8rem;
+    color: #585858;
+}
+.cardBtn{
+    background: #b573de;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    padding: .5rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    transition: all .1s ease-in-out;
+}
+.cardBtn:hover{
+    background: #ededed;
+    color: #b573de;
+}
+
+footer{
+  padding: 1rem;
+  font-weight: 500;
+  text-align: center;
+  color: #333;
+  background: #e5e5e5;
+}
+
+
+@media (max-width:992px){
+  html{
+      font-size: 14px;
+  }
+  .heroContainer{
+    padding: 4rem 2.5rem !important;
+    text-align: center;
+    gap: 2rem;
+    flex-direction: column-reverse;
+    height:fit-content ;
+  }
+  .heroLeft, .heroRight{
+    width: 90%;
+  }
+  .heroTitle{
+    font-size: 1.8rem !important;
+  }
+  .heroDesc{
+    font-size: .8rem;
+  }
+}
+@media (max-width:765px){
+  .heroContainer{
+    padding: 4rem 2.5rem !important;
+    text-align: center;
+    flex-direction: column-reverse;
+    height:fit-content ;
+  }
+  .heroContainer img{
+    width: 100%;
+    height: auto;
+  }
+}
+@media (max-width:576px){
+    html{
+        font-size: 16px;
+    }
+    .CP{
+        padding: 2rem;
+    }
+    .heroContainer{
+        margin: 3rem;
+    }
+}
