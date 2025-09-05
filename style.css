@@ -1,5 +1,5 @@
 body {
-    background: radial-gradient(circle at top left, rgb(181 115 222 / 30%) 0%, transparent 60%), radial-gradient(circle at bottom right, rgb(154 112 193 / 30%) 0%, transparent 60%), linear-gradient(135deg, #f7f5ff 0%, #ede9f9 100%);
+    background: #ede9f9;
     background-repeat: no-repeat;
     background-size: cover;
     backdrop-filter: blur(40px);
@@ -118,7 +118,7 @@ footer{
   font-weight: 500;
   text-align: center;
   color: #333;
-  background: #e5e5e5;
+  background: #f2f2f2;
 }
 
 
